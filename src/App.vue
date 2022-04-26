@@ -2,16 +2,20 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <TestAgain></TestAgain>
+    <ConsoleLogs></ConsoleLogs>
   </div>
 </template>
 
 <script>
 import TestAgain from './components/Test.vue'
 
+import ConsoleLogs from './components/ConsoleLog.vue'
+
 export default {
   name: 'App',
   components: {
-  TestAgain
+  TestAgain,
+  ConsoleLogs,
   }
 }
 </script>
