@@ -1,6 +1,6 @@
 <template>
     <div>
-        ghjghkuh
+        This is the fist template which i created, in our Vue.js Assignment.
     </div>
 </template>
 
