@@ -3,6 +3,7 @@
     <img alt="Vue logo" src="./assets/logo.png">
     <TestAgain></TestAgain>
     <ConsoleLogs></ConsoleLogs>
+    <Time-Check></Time-Check>
   </div>
 </template>
 
@@ -11,11 +12,14 @@ import TestAgain from './components/Test.vue'
 
 import ConsoleLogs from './components/ConsoleLog.vue'
 
+import TimeCheck from "./components/Time.vue"
+
 export default {
   name: 'App',
   components: {
   TestAgain,
   ConsoleLogs,
+  TimeCheck,
   }
 }
 </script>
