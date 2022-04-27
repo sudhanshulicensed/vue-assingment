@@ -5,6 +5,7 @@
     <ConsoleLogs></ConsoleLogs>
     <Time-Check></Time-Check>
     <CheckBox></CheckBox>
+    <DropDown></DropDown>
   </div>
 </template>
 
@@ -17,6 +18,8 @@ import TimeCheck from "./components/Time.vue"
 
 import CheckBox from "./components/Checkbox.vue"
 
+import DropDown from "./components/Dropdown.vue"
+
 export default {
   name: 'App',
   components: {
@@ -24,6 +27,7 @@ export default {
   ConsoleLogs,
   TimeCheck,
   CheckBox,
+  DropDown
   }
 }
 </script>

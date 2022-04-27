@@ -19,7 +19,7 @@ export default {
     methods: {
         red: function(){
             this.isRed = true;
-            console.log(this.isRed)
+            console.log(this.isRed);
         }
     }   
 }
