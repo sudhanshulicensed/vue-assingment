@@ -6,6 +6,7 @@
     <Time-Check></Time-Check>
     <CheckBox></CheckBox>
     <DropDown></DropDown>
+    <ArrDropDown></ArrDropDown>
   </div>
 </template>
 
@@ -20,6 +21,8 @@ import CheckBox from "./components/Checkbox.vue"
 
 import DropDown from "./components/Dropdown.vue"
 
+import ArrDropDown from "./components/DropDownArray.vue"
+
 export default {
   name: 'App',
   components: {
@@ -27,7 +30,8 @@ export default {
   ConsoleLogs,
   TimeCheck,
   CheckBox,
-  DropDown
+  DropDown,
+  ArrDropDown
   }
 }
 </script>
