@@ -8,6 +8,7 @@
     <DropDown></DropDown>
     <ArrDropDown></ArrDropDown>
     <InFormToList></InFormToList>
+    <EditList></EditList>
   </div>
 </template>
 
@@ -26,6 +27,8 @@ import ArrDropDown from "./components/DropDownArray.vue"
 
 import InFormToList from "./components/List.vue"
 
+import EditList from "./components/EditList.vue"
+
 export default {
   name: 'App',
   components: {
@@ -35,7 +38,8 @@ export default {
   CheckBox,
   DropDown,
   ArrDropDown,
-  InFormToList
+  InFormToList,
+  EditList
   }
 }
 </script>
