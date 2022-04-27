@@ -4,6 +4,7 @@
     <TestAgain></TestAgain>
     <ConsoleLogs></ConsoleLogs>
     <Time-Check></Time-Check>
+    <CheckBox></CheckBox>
   </div>
 </template>
 
@@ -14,12 +15,15 @@ import ConsoleLogs from './components/ConsoleLog.vue'
 
 import TimeCheck from "./components/Time.vue"
 
+import CheckBox from "./components/Checkbox.vue"
+
 export default {
   name: 'App',
   components: {
   TestAgain,
   ConsoleLogs,
   TimeCheck,
+  CheckBox,
   }
 }
 </script>
